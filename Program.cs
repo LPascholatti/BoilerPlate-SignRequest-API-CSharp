@@ -12,7 +12,7 @@ namespace csClient
         static void Main(string[] args)
         {
             // Configure API key authorization: Token
-            Configuration.Default.AddApiKey("Authorization", "YOUR_API_HERE");
+            Configuration.Default.AddApiKey("Authorization", "YOUR_TOKEN_HERE");
             Configuration.Default.AddApiKeyPrefix("Authorization", "Token");
 
             var documentsApi = new DocumentsApi();
